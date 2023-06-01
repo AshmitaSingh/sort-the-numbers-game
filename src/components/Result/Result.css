@@ -1,0 +1,97 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confetti,
+.wrong {
+  height: 60px;
+  width: 60px;
+}
+
+.reset {
+  color: white;
+  margin: 10px;
+  border: 0;
+  padding: 0.6em 1em;
+  font-size: medium;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #ee6352, purple, #ee6352);
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 350ms;
+  cursor: pointer;
+  background-image: linear-gradient(90deg, #ee6352, purple, #ee6352);
+}
+
+.reset:hover {
+  background-position: right;
+}
+
+.result {
+  text-shadow: 2px 2px #fff;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 0 2rem;
+  letter-spacing: 0.8rem;
+}
+
+.correct {
+  color: #bbf13b;
+}
+
+.incorrect {
+  color: #ef233c;
+}
+
+@media only screen and (max-width: 600px) {
+  .result {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 2rem 0;
+    letter-spacing: 0.4rem;
+  }
+  .confetti,
+  .wrong {
+    height: 50px;
+    width: 50px;
+    margin-right: 8px;
+  }
+
+  .reset {
+    padding: 0.8em 1.8em;
+    font-size: large;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .result {
+    margin: 3rem 1rem;
+  }
+  .reset {
+    padding: 0.8em 1.8em;
+    font-size: large;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .result {
+    margin: 0.2rem 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .result {
+    margin: 1.4rem 1rem;
+  }
+  .reset {
+    padding: 0.8em 1.8em;
+    font-size: large;
+  }
+}
