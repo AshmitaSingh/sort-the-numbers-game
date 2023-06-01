@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sort-the-numbers-game/static/css/main.8a46d87f.css",
+    "main.js": "/sort-the-numbers-game/static/js/main.db3a593c.js",
+    "static/media/confetti1.png": "/sort-the-numbers-game/static/media/confetti1.53e1c51ab611c1ca745d.png",
+    "static/media/cancel.png": "/sort-the-numbers-game/static/media/cancel.aaebfb2203e0730ff25d.png",
+    "static/media/bg.svg": "/sort-the-numbers-game/static/media/bg.4961d087a481a007abc8.svg",
+    "index.html": "/sort-the-numbers-game/index.html",
+    "main.8a46d87f.css.map": "/sort-the-numbers-game/static/css/main.8a46d87f.css.map",
+    "main.db3a593c.js.map": "/sort-the-numbers-game/static/js/main.db3a593c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a46d87f.css",
+    "static/js/main.db3a593c.js"
+  ]
+}
